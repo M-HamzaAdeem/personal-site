@@ -1,0 +1,168 @@
+/*****************TAGS SETECTORS*********************/
+h1 {
+    line-height: 2;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    color: #2d7165;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+    font-size: 2em;
+    padding: 20px;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #317f6e;
+    font-size: 1.75em;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.8;
+}
+hr {
+    border: dotted #9fa9a9 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 40px;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+    text-decoration: underline;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+    
+}
+/*****************CLASSES SETECTORS*********************/
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 150px;
+
+
+}
+
+.middle-container {
+    background-color: whitesmoke;
+    padding: 70px;
+}
+
+.bottom-container {
+   
+    background-color: #66BFBF;
+    color: #11999E;
+
+    padding: 40px 0px 20px;
+
+}
+
+.importanttext {
+    /*text-decoration: underline;*/
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    top: 400px;
+
+}
+
+.mountain {
+    margin-top: 100px;
+}
+
+.h2photos {
+    padding-top: 5em;
+    vertical-align: center;
+}
+
+.skill-row{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    text-align: left;
+    
+}
+.webDesign{
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+}
+.webDevalop{
+    width: 40%;
+    float: right;
+    padding-right: 20px;
+}
+.footer-link{
+    margin: 100px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 25px 15px 25px;
+    margin: 50px;
+    text-decoration: none;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: 1rem;
+    padding: 20px 0;
+    font-weight: bold;
+    font-weight: normal;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.freelancing {
+    width: 30%;
+    margin: auto;
+    padding: 50px;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+
+}
+/*****************IDs SETECTORS*********************/
