@@ -3,13 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <!-- Title -->
     <title>Hamza Adeem</title>
-    <link rel="stylesheet" href="Styles.css">
+
+    <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
         rel="stylesheet">
+
+    <!-- StyleSheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles.css">
+
+    <!-- FontAwesome script -->
+    <script src="https://kit.fontawesome.com/056a4e962f.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+
 </head>
 
 <body>
@@ -17,43 +38,87 @@
         <img class="top-cloud" src="images/my-cloud.png" alt="cloud">
         <h1>I'm Hamza</h1>
         <p>a <span class="importanttext">Web</span> Designer and <span class="importanttext">SEO</span> Expert</p>
-        <img class="bottom-cloud" src="images/my-cloud.png" alt="cloud">
-        <img class="mountain" src="images/my-mountain.png" alt="my-achievement">
+        <p><img class="bottom-cloud" src="images/my-cloud.png" alt="cloud"></p>
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <img class="mountain " src="images/my-mountain.png" alt="my-achievement">
+            </div>
+        </div>
+        
     </div>
 
-    <!-----------------------Copied Code----------------------------->
     <div class="middle-container">
-        <div class="profile">
 
-            <img class="h2photos" src="images/me.png" alt="me">
-            <h2>Hello.</h2>
-            <p class = "intro">I am a web designer/developer based in Asia, driven by passion for creating visually appealing and user-friendly web and mobile experiences.
-            </p>
-        </div>
-        <hr>
-        <div class="skills">
-            <h2>What I can do.</h2>
-            <div class="skill-row">
-                <img class="webDesign" src="images/design.png" alt="webDesign">
-                <h3>Design what you want.</h3>
-                <p>I like to keep it simple. My goals are to focus on typography, content and conveying the message that
-                    you want to send.</p>
+        <!-- Profile Section -->
+        <section class="profile container-fluid">
+            <div class="row">
+                <div class="col col-lg-6 mx-auto">
+                    <img class="h2photos" src="images/me.png" alt="me">
+                </div>
             </div>
-            <div class="skill-row">
-                <img class="webDevalop" src="images/devalop.png" alt="webDevalop">
-                <h3>Develop what you need.</h3>
-                <p>I'm a developer, so I know how to create your website to run across devices using the latest
-                    technologies available.</p>
+            <div class="row">
+
+                <div class="col col-lg-6 mx-auto">
+                    <h2>Hello.</h2>
+                </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col col-lg-6 col-md-8 col-sm-11 mx-auto">
+                    <p>I am a web designer/developer based in Asia, driven by passion for creating visually
+                        appealing and user-friendly web and mobile experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
         <hr>
-        <div class="contact-me">
-            <h2>I can help.</h2>
-            <h3>I’m currently available for freelance work.</h3>
-            <p class = "freelancing">If you have a project that you want to get started, think you need my help with something or just fancy
-                saying hey, then get in touch.</p>
-            <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-        </div>
+
+        <!-- Skills Section -->
+        <section>
+            <div class="row">
+                <div class="col col-lg-8 mx-auto">
+                    <h2>What I can do.</h2>
+                    <div class="row">
+                        <div class="col col-lg-6 col-md-12 mb-5">
+                            <img src="images/design.png" alt="webDesign">
+                        </div>
+                        <div class="col col-lg-6 col-md-12 text-lg-start mb-5">
+                            <h3>Design what you want.</h3>
+                            <p>I like to keep it simple. My goals are to focus on typography, content and conveying the
+                                message that you want to send.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-gap">
+                <div class="col col-lg-8 mx-auto">
+                    <div class="row">
+                        <div class="col col-lg-6 col-md-12 text-lg-start order-2 order-lg-1 mb-5">
+                            <h3>Develop what you need.</h3>
+                            <p>I'm a developer, so I know how to create your website to run across devices using the
+                                latest technologies available.</p>
+                        </div>
+                        <div class="col col-lg-6 col-md-12 order-1 order-lg-2 mb-5">
+                            <img src="images/devalop.png" alt="webDevalop">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- contact me section -->
+        <section class="contact-me">
+            <div class="row">
+                <div class="col col-lg-6 col-md-8 col-sm-11 mx-auto">
+                    <h2>I can help.</h2>
+                    <h3>I’m currently available for freelance work.</h3>
+                    <p class="freelancing">If you have a project that you want to get started, think you need my help
+                        with something or just fancy saying hey, then get in touch.</p>
+                    <a class="btn" href="mailto:mhamza.adeem@gmail.com">CONTACT ME</a>
+                </div>
+            </div>
+
+        </section>
     </div>
 
 
@@ -61,7 +126,7 @@
         <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
         <a class="footer-link" href="https://twitter.com/">Twitter</a>
 
-        <p class="copyright" > ©2023 Hamza Adeem</p>
+        <p class="copyright"> ©2023 Hamza Adeem</p>
     </div>
 
     <!-----------------------Copied Code End-------------------------->
