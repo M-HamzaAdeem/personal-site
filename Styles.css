@@ -27,7 +27,7 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 1.5em;
-
+    --bs-gutter-x: 0
 }
 p {
     display: block;
@@ -68,7 +68,7 @@ a:-webkit-any-link {
 }
 
 .middle-container {
-    background-color: whitesmoke;
+    background-color: #fafafa;
 
 }
 .skill-row{
@@ -150,6 +150,9 @@ a:-webkit-any-link {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
 
 }
+.row{
+    --bs-gutter-x: 0
+}
 /*****************IDs SETECTORS*********************/
 
 
@@ -166,6 +169,10 @@ a:-webkit-any-link {
     position: absolute;
     left: -70px;
     bottom: 500px;
+  }
+  p{
+    margin: 3rem;
+    font-size: medium;
   }
 }
 
