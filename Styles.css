@@ -179,8 +179,9 @@ a:-webkit-any-link {
   }
   p{
     margin: 2rem;
-    font-size:4rem;
+    /*font-size:3rem;*/
   }
+  /*
   h2{
     font-size:6rem;
   }
@@ -188,7 +189,7 @@ a:-webkit-any-link {
   h3{
     font-size:5rem;
   }
-
+*/
 }
 
   
