@@ -63,12 +63,15 @@ a:-webkit-any-link {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 150px;
+    overflow: hidden; 
 
 
 }
 
 .middle-container {
     background-color: #fafafa;
+    position: relative;
+    overflow: hidden;
 
 }
 .skill-row{
@@ -79,7 +82,8 @@ a:-webkit-any-link {
    
     background-color: #66BFBF;
     color: #11999E;
-
+    position: relative;
+    overflow: hidden;
     padding: 40px 0px 20px;
 
 }
@@ -152,6 +156,9 @@ a:-webkit-any-link {
 }
 .row{
     --bs-gutter-x: 0
+}
+.col{
+    overflow: hidden;
 }
 /*****************IDs SETECTORS*********************/
 
