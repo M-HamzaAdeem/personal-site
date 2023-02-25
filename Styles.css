@@ -179,9 +179,15 @@ a:-webkit-any-link {
   }
   p{
     margin: 3rem;
-    font-size: large;
+    font-size:4rem;
+  }
+  h2{
+    font-size:7rem;
   }
 
+  h3{
+    font-size:6rem;
+  }
 
 }
 
