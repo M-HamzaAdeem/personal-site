@@ -20,6 +20,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color: #317f6e;
     font-size: 1.75em;
+    padding: 25px;
 }
 
 body {
@@ -44,7 +45,7 @@ hr {
     margin: 100px auto;
 }
 a {
-    color: #11999E;
+    color: #095e61;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 40px;
     text-decoration: none;
